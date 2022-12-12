@@ -1709,11 +1709,11 @@
       value="Vincent VERMOREL"/>
   <properties
       key="Date"
-      value="06/12/2022"/>
+      value="12/12/2022"/>
   <properties
       key="Statut"
       value="en cours"/>
   <properties
       key="Version"
-      value="0.1"/>
+      value="0.2"/>
 </archimate:ArchimateDiagramModel>
