@@ -1,5 +1,7 @@
-on: [push]
-
+on: 
+  push:
+    branches:
+      - master
 jobs:
   archi_report:
     permissions:
@@ -17,7 +19,7 @@ jobs:
         with:
           archiHtmlReportEnabled: true
           archiJasperReportEnabled: true
-          archiJasperReportFormats: PDF,DOCX,PPT
-          archiCsvReportEnabled: false
+          archiJasperReportFormats: PDF,DOCX,PPTX
+          archiCsvReportEnabled: true
           archiExportModelEnabled: false
           githubToken: ${{ secrets.GITHUB_TOKEN }}
