@@ -7,8 +7,6 @@
   <properties
       key="ID"
       value="CU03"/>
-  <profiles
-      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
   <source
       xsi:type="archimate:BusinessFunction"
       href="BusinessFunction_id-636cc9fcf2674df1937d98cadb127604.xml#id-636cc9fcf2674df1937d98cadb127604"/>

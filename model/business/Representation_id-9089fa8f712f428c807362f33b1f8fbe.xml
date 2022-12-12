@@ -2,7 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Norme NFE / NFA"
     id="id-9089fa8f712f428c807362f33b1f8fbe"
-    documentation="Document de certification produit qui est imprimé au besoin juste dans l'atelier pour certains meubles au moment de la préparation du kit composants.&#xD;&#xA;&#xD;&#xA;On retrouve sur ce document un code à barres avec  le n° ligne AR qui permet de faire un contrôle d'apparraige et s'assurer que le document NF est bien livré avec le meuble.">
-  <profiles
-      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
-</archimate:Representation>
+    documentation="Document de certification produit qui est imprimé au besoin juste dans l'atelier pour certains meubles au moment de la préparation du kit composants.&#xD;&#xA;&#xD;&#xA;On retrouve sur ce document un code à barres avec  le n° ligne AR qui permet de faire un contrôle d'apparraige et s'assurer que le document NF est bien livré avec le meuble."/>

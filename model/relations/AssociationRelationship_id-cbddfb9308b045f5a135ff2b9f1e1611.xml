@@ -7,8 +7,6 @@
   <properties
       key="ID"
       value="CU08"/>
-  <profiles
-      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
   <source
       xsi:type="archimate:Representation"
       href="Representation_id-8fbb7916b9094323a3ee44bc5a9e6822.xml#id-8fbb7916b9094323a3ee44bc5a9e6822"/>

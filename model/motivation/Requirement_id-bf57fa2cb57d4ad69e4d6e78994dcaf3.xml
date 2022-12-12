@@ -1,7 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="110 x 110 mm"
-    id="id-bf57fa2cb57d4ad69e4d6e78994dcaf3">
-  <profiles
-      href="folder.xml#id-ca4eefe193924be2adf40f1cf668857f"/>
-</archimate:Requirement>
+    id="id-bf57fa2cb57d4ad69e4d6e78994dcaf3"/>

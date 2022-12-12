@@ -34,16 +34,4 @@
   <properties
       key="Version"
       value="0.1"/>
-  <profiles
-      name="cas d'usage"
-      id="id-dbc54371da70456a9abce8b5b45be894"
-      conceptType="AssociationRelationship"/>
-  <profiles
-      name="format de document"
-      id="id-ca4eefe193924be2adf40f1cf668857f"
-      conceptType="Requirement"/>
-  <profiles
-      name="specification mise en page"
-      id="id-5d6357697e8b4969a1e350217332b164"
-      conceptType="Representation"/>
 </archimate:ArchimateModel>
