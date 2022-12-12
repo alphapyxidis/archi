@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU08 - jalonner une pièce (composant ou meuble)"
+    id="id-cbddfb9308b045f5a135ff2b9f1e1611"
+    documentation="Grâce au code à barres qui identifie le n° du besoin, l'opérateur peut effectuer l'opération de jalonnement du composant ou du meuble.">
+  <properties
+      key="ID"
+      value="CU08"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-8fbb7916b9094323a3ee44bc5a9e6822.xml#id-8fbb7916b9094323a3ee44bc5a9e6822"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-636cc9fcf2674df1937d98cadb127604.xml#id-636cc9fcf2674df1937d98cadb127604"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU15 - appairer un document"
+    id="id-64b56ea4815642128f9f33275d909a42"
+    documentation="Permet de contrôler que le bon document est associé au produit par rapport à la nomenclature (notice de montage) ou par rapport à un ID besoin spécifique (norme NFE NFA).">
+  <properties
+      key="ID"
+      value="CU15"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-50ab51ebfd13459faceb071f94b9f97a.xml#id-50ab51ebfd13459faceb071f94b9f97a"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-dfb507fa2c624c42813c9b989014f2e4.xml#id-dfb507fa2c624c42813c9b989014f2e4"/>
+</archimate:AssociationRelationship>

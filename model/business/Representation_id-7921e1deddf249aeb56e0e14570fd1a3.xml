@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FPA - Fiche Perso Rangement"
+    id="id-7921e1deddf249aeb56e0e14570fd1a3">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Gestion%20de%20Production/FPA%20-%20compo%20rangement.xls?csf=1&amp;e=gMkedP"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

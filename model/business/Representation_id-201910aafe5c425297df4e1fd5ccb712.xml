@@ -1,0 +1,5 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fiche Pile"
+    id="id-201910aafe5c425297df4e1fd5ccb712"
+    documentation="La fiche de pile permet d'identifier une pile en tant qu'unité de manutention et de lister les composants, semi-finis ou produits qui sont contenus dans cette pile ou ce chariot. &#xD;&#xA;&#xD;&#xA;Un n° d'identification unique est représenté sous forme de code à barres.&#xD;&#xA;&#xD;&#xA;Dans certains cas, la position de chaque élément sur la pile ou dans le chariot est mentionnée (séquencement des pièces).&#xD;&#xA;&#xD;&#xA;Des informations liées à la destination (atelier / ligne) et à la planification associée (n° SL / F) peuvent également être présentes.&#xD;&#xA;&#xD;&#xA;Elle peut aussi préciser quel est l'identifiant du (ou des) &quot;contenants&quot; (n° du chariot, n° des plaques martyres)."/>

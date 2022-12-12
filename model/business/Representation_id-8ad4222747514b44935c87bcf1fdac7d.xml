@@ -1,0 +1,8 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FS Fournisseur PFF"
+    id="id-8ad4222747514b44935c87bcf1fdac7d"
+    documentation="Fiche suiveuse simplifiée générée par nos fournisseurs de produits finis (électro-ménager ou contremarque) à partir des informations contenues dans le message EDI">
+  <properties
+      key="lien GED modèle"/>
+</archimate:Representation>

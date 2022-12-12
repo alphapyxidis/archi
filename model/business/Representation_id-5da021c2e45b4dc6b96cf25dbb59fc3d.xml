@@ -1,0 +1,9 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FP Fournisseur"
+    id="id-5da021c2e45b4dc6b96cf25dbb59fc3d"
+    documentation="Fiche perso générée par nos fournisseurs de composants à la contremarque à partir des informations contenues dans le message EDI&#xD;&#xA;">
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Industrialisations/Flux/Descriptifs%20Flux/Flux%20contremarques/Fiches%20persos%20fournisseurs"/>
+</archimate:Representation>

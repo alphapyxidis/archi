@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Guider l'opérateur"
+    id="id-ec4928d331854ee1984f473f47badd7d"
+    documentation="Grâce aux instructions ou aux informations directement imprimées sur le document (nom d'une opération de gamme, nom d'une option, dimension, référence d'un coloris ou d'un type de chant, emplacement de destination...), un opérateur est en mesure d'effectuer certaines opérations de fabrication ou de déplacement."/>

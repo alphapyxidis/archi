@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU02 - donner les instructions de pick-in"
+    id="id-268fa709a747411093d0057a17627e38"
+    documentation="Liste les différentes références et quantités de composants à préparer en mentionnant, le cas échéant, le n° ID Besoin pour permettre à l'opérateur de coller la &quot;fiche perso&quot; appropriée sur le composant concerné. L'emplacement de destination permet également d'indiquer le lieu vers lequel le(s) composant(s) doivent être acheminés (emplacement bord de ligne).">
+  <properties
+      key="ID"
+      value="CU02"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ec4928d331854ee1984f473f47badd7d.xml#id-ec4928d331854ee1984f473f47badd7d"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-dccee45e82a8493cbbc22d6ea438edc4.xml#id-dccee45e82a8493cbbc22d6ea438edc4"/>
+</archimate:AssociationRelationship>

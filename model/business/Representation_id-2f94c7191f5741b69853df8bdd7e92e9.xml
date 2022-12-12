@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FPI - Fiche Perso Composant"
+    id="id-2f94c7191f5741b69853df8bdd7e92e9">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Gestion%20de%20Production/FPI%20-%20composant.doc?csf=1&amp;e=ebfX6U"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

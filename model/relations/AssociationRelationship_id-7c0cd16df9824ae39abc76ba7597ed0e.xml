@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU10 - afficher instruction filigrane"
+    id="id-7c0cd16df9824ae39abc76ba7597ed0e"
+    documentation="Dans certains cas, un filigrane est imprimé sur la Fiche Suiveuse pour indiquer que le produit est en délai court (mention &quot;HORS CYLCE&quot;), en refabrication (mention &quot;URGENTE&quot;) ou qu'il fait l'objet d'une demande particulière (mention &quot;DP&quot;).&#xD;&#xA;&#xD;&#xA;Compte-tenu du fait que la fiche suiveuse suit le produit jusque chez le client, il faudrait que les différents libellés et descriptions (par exemple coloris) soient traduits dans la langue du client.&#xD;&#xA;&#xD;&#xA;Cela signifie que les fonctionnalités de guidance destinées à l'interne (opérateur de production) doivent être assurées par un autre dispositif (écran). La fiche suiveuse n'est plus &quot;auto porteuse&quot; de la fonctionnalité dans le cas d'une traduction en langue étrangère.&#xD;&#xA;&#xD;&#xA;Le filigrane &quot;n PRETARD&quot; est ajouté suite à une modification d'un OF déjà lancé (modification de la nomenclature suite à un retard de fabrication sur une ou plusieurs façades qui seront livrées à part). &#xD;&#xA;Cela signifie qu'il faut que le système qui génére le document le fasse au dernier moment (simultanément à l'impression) pour utiliser les dernières infirmations à jour, ou bien qu'une fonctionnalité de modification du document déjà généré, mais non encore imprimé, mette à jour le contenu du document à chaque fois que l'OF est modifié.&#xD;&#xA; ">
+  <properties
+      key="ID"
+      value="CU10"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-7a14ce36c49545998fe942ce9f8a0550.xml#id-7a14ce36c49545998fe942ce9f8a0550"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-ec4928d331854ee1984f473f47badd7d.xml#id-ec4928d331854ee1984f473f47badd7d"/>
+</archimate:AssociationRelationship>

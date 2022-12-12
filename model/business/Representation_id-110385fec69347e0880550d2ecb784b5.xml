@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FPC - Fiche Perso Composant"
+    id="id-110385fec69347e0880550d2ecb784b5">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Gestion%20de%20Production/FPC%20-%20composant.doc?csf=1&amp;e=RKF9gW"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

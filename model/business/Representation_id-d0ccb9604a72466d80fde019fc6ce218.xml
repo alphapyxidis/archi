@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FPT - Fiche Perso Tiroir"
+    id="id-d0ccb9604a72466d80fde019fc6ce218">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Gestion%20de%20Production/FPT%20-%20tiroir.doc?csf=1&amp;e=XYpEPJ"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

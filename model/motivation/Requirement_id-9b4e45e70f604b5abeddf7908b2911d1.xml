@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="A4"
+    id="id-9b4e45e70f604b5abeddf7908b2911d1">
+  <profiles
+      href="folder.xml#id-ca4eefe193924be2adf40f1cf668857f"/>
+</archimate:Requirement>

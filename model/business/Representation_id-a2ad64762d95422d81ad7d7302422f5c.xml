@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FPZ - Fiche Perso Cartons de Meuble"
+    id="id-a2ad64762d95422d81ad7d7302422f5c">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"
+      value="http://ged/sites/DIL/GFP/Gestion%20de%20Production/FPZ%20-%20Cartons%20de%20meuble.docx?csf=1&amp;e=R4ceCQ"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

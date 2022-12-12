@@ -1,0 +1,12 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fiche suiveuse colis replanifié"
+    id="id-d6680e3a45ac4921afc5a8ef8e6a334d"
+    documentation="Fiche suiveuse &quot;jaune&quot; réimprimée quand la livraison d'un colis est replanifiée pour partir sur un flux logistique de type &quot;messagerie&quot;.">
+  <properties
+      key="Ref EAGLE (WRICEF)"/>
+  <properties
+      key="lien GED modèle"/>
+  <profiles
+      href="folder.xml#id-5d6357697e8b4969a1e350217332b164"/>
+</archimate:Representation>

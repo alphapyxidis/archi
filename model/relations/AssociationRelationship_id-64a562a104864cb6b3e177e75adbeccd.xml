@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU13 - identifier une pièce"
+    id="id-64a562a104864cb6b3e177e75adbeccd"
+    documentation="Permet d'identifier un produit (fini ou semi-fini) à partir du n° du besoin.">
+  <properties
+      key="ID"
+      value="CU13"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-8fbb7916b9094323a3ee44bc5a9e6822.xml#id-8fbb7916b9094323a3ee44bc5a9e6822"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-641a8d6c2a624224860ac57d7ccab17d.xml#id-641a8d6c2a624224860ac57d7ccab17d"/>
+</archimate:AssociationRelationship>

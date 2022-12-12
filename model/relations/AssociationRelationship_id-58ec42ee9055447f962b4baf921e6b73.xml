@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU06 - afficher les informations d'expédition"
+    id="id-58ec42ee9055447f962b4baf921e6b73"
+    documentation="Les informations relatives à l'expédition (n° de fractionnement, ordre de chargement, ainsi que l'adresse de livraison) sont mentionnées sur la fiche suiveuse.">
+  <properties
+      key="ID"
+      value="CU06"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-fd352ce09db0404cbe600a8258acee42.xml#id-fd352ce09db0404cbe600a8258acee42"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-7a14ce36c49545998fe942ce9f8a0550.xml#id-7a14ce36c49545998fe942ce9f8a0550"/>
+</archimate:AssociationRelationship>

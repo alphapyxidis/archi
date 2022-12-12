@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU14 - appairer un composant"
+    id="id-69879ea0f96746cbbe802d7dc4f1bec9"
+    documentation="Permet de contrôler que le bon composant est monté dans le produit par rapport à la nomenclature définie et au lien entre un OF père et un OF fils.">
+  <properties
+      key="ID"
+      value="CU14"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:Representation"
+      href="Representation_id-cd1a9008da504b718a8f7862aa72ea1c.xml#id-cd1a9008da504b718a8f7862aa72ea1c"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-50ab51ebfd13459faceb071f94b9f97a.xml#id-50ab51ebfd13459faceb071f94b9f97a"/>
+</archimate:AssociationRelationship>

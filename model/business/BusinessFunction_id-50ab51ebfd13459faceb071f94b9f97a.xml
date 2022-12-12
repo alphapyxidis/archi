@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contrôler l'appairage"
+    id="id-50ab51ebfd13459faceb071f94b9f97a"
+    documentation="Grâce aux informations directement imprimées sur le document, un opérateur est en mesure de contrôler que la pièce ou le document est bien le bon par rapport à un n° d'identification associé, en général le n° de la ligne de commande de vente (AR ligne). "/>

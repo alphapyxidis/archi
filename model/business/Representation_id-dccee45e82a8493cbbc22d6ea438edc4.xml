@@ -1,0 +1,5 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fiche Préparation"
+    id="id-dccee45e82a8493cbbc22d6ea438edc4"
+    documentation="La fiche préparation est une fiche d'instructions qui permet d'indiquer les articles (composants) qu'il faut prélever sur un magasin pour approvisionner un stock &quot;bord de ligne&quot;.&#xD;&#xA;&#xD;&#xA;Cela peut être un recomplètement de type kanban de stock ou bien une liste au besoin juste.&#xD;&#xA;&#xD;&#xA;Dans certains cas, la mention d'un séquencement peut être précisée pour préparer, regrouper ou trier les composants dans un ordre précis."/>

@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU04 - lister le contenu d'une pile"
+    id="id-844c2038bbf945f5820936e006ed31cf"
+    documentation="La liste des composants, des semis-finis ou des produits contenus dans la pile permet à l'opérateur de contrôler la quantité et, selon les cas, retrouver la position dans la pile ou le chariot (séquencement).">
+  <properties
+      key="ID"
+      value="CU04"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-641a8d6c2a624224860ac57d7ccab17d.xml#id-641a8d6c2a624224860ac57d7ccab17d"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-201910aafe5c425297df4e1fd5ccb712.xml#id-201910aafe5c425297df4e1fd5ccb712"/>
+</archimate:AssociationRelationship>

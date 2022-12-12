@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Effectuer un jalonnement"
+    id="id-636cc9fcf2674df1937d98cadb127604"
+    documentation="L'information d'identification unique de la pièce ou de la pile permet d'effectuer un jalonnement automatique (lecture optique d'un code à barres) ou manuelle par saisie de la référence dans un logiciel.&#xD;&#xA;&#xD;&#xA;Ce traitrement est un cas particulier lié à la fonctionnalité d'identification portée par le document."/>

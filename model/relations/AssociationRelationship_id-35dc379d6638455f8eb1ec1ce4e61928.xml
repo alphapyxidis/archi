@@ -1,0 +1,18 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CU07 - identifier le meuble"
+    id="id-35dc379d6638455f8eb1ec1ce4e61928"
+    documentation="Permet de retrouver les informations de référence du meuble ainsi que les données relatives à la commande de vente. Une vignette représente dans certains cas le meuble contenu dans le carton.&#xD;&#xA;&#xD;&#xA;Compte-tenu du fait que la fiche suiveuse suit le produit jusque chez le client, il faudrait que les différents libellés et descriptions soient traduits dans la langue du client.&#xD;&#xA;&#xD;&#xA;Cela signifie que les fonctionnalités d'identification du produit ou de guidance destinées à l'interne (opérateur de production) doivent être assurées par un autre dispositif (écran). La fiche suiveuse n'est plus &quot;auto porteuse&quot; de la fonctionnalité dans le cas d'une traduction en langue étrangère.">
+  <properties
+      key="ID"
+      value="CU07"/>
+  <profiles
+      href="folder.xml#id-dbc54371da70456a9abce8b5b45be894"/>
+  <source
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_id-641a8d6c2a624224860ac57d7ccab17d.xml#id-641a8d6c2a624224860ac57d7ccab17d"/>
+  <target
+      xsi:type="archimate:Representation"
+      href="Representation_id-7a14ce36c49545998fe942ce9f8a0550.xml#id-7a14ce36c49545998fe942ce9f8a0550"/>
+</archimate:AssociationRelationship>
