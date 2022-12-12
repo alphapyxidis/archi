@@ -984,10 +984,10 @@
             endX="-552"
             endY="1053"/>
         <bendpoints
-            startX="108"
-            startY="-1058"
-            endX="-540"
-            endY="-2"/>
+            startX="84"
+            startY="-1059"
+            endX="-564"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-69ae3b0ba2f04135b799ca38f46d0de4.xml#id-69ae3b0ba2f04135b799ca38f46d0de4"/>
@@ -1182,6 +1182,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bb2fb384268d4629a29a9670f1fd57de"
+      fillColor="#ff80c0"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1411,5 +1412,5 @@
       value="en cours"/>
   <properties
       key="Version"
-      value="0.2"/>
+      value="0.3"/>
 </archimate:ArchimateDiagramModel>
