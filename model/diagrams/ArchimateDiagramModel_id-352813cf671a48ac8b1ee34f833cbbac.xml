@@ -1182,6 +1182,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bb2fb384268d4629a29a9670f1fd57de"
+      fillColor="#ff80ff"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1405,7 +1406,7 @@
       value="Vincent VERMOREL"/>
   <properties
       key="Date"
-      value="12/12/2022"/>
+      value="16/12/2022"/>
   <properties
       key="Statut"
       value="en cours"/>
