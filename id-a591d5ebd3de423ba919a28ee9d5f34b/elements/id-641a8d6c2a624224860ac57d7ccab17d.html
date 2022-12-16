@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Identifier un produit ou un composant</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Identifier un produit ou un composant</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessFunction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessFunction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Gr&#226;ce aux informations directement imprim&#233;es sur le document, il est possible d'identifier le produit ou le composant gr&#226;ce &#224; une description, une r&#233;f&#233;rence article, un &#176; de ligne de commande (AR ligne), un n&#176; de besoin (n&#176; OF ou n&#176; fractionnement).
+
+Certain document affiche &#233;galement une repr&#233;sentation graphique (vignette) du produit.
+
+On retrouve &#233;galement sous forme d'un code &#224; barres un n&#176; d'identification unique qui, gr&#226;ce &#224; une lecture optique, sera trait&#233; par un logiciel pour effectuer un traitement particulier pour la pi&#232;ce identifi&#233;e. 
+
+Cela peut par exemple &#234;tre l'impression d'un nouveau document dans une op&#233;ration de gamme de fabrication, l'envoi de param&#232;tre process &#224; une machine d'usinage, l'aiguillage automatique d'un produit sur un convoyeur ou une sortie particuli&#232;re (i.e. poste de contr&#244;le), &#233;clairage d'un voyant particulier (instruction type "pick to light") ou m&#234;me l'affichage d'une information compl&#233;mentaire sur un &#233;cran (guidance op&#233;rateur par une instruction dynamique li&#233;e au contexte et non directement port&#233;e par le document).</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

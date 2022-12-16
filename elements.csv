@@ -1,0 +1,131 @@
+"ID","Type","Name","Documentation","Specialization"
+"id-a591d5ebd3de423ba919a28ee9d5f34b","ArchimateModel","Gestion des editions dans les ateliers","Cette cartographie documente la gestion et les flux d'impression des différents documents (fiches, étiquettes...) dans les ateliers de production des usines Fournier.",""
+"id-50ab51ebfd13459faceb071f94b9f97a","BusinessFunction","Contrôler l'appairage","Grâce aux informations directement imprimées sur le document, un opérateur est en mesure de contrôler que la pièce ou le document est bien le bon par rapport à un n° d'identification associé, en général le n° de la ligne de commande de vente (AR ligne). ",""
+"id-636cc9fcf2674df1937d98cadb127604","BusinessFunction","Effectuer un jalonnement","L'information d'identification unique de la pièce ou de la pile permet d'effectuer un jalonnement automatique (lecture optique d'un code à barres) ou manuelle par saisie de la référence dans un logiciel.
+
+Ce traitrement est un cas particulier lié à la fonctionnalité d'identification portée par le document.",""
+"id-ec4928d331854ee1984f473f47badd7d","BusinessFunction","Guider l'opérateur","Grâce aux instructions ou aux informations directement imprimées sur le document (nom d'une opération de gamme, nom d'une option, dimension, référence d'un coloris ou d'un type de chant, emplacement de destination...), un opérateur est en mesure d'effectuer certaines opérations de fabrication ou de déplacement.",""
+"id-641a8d6c2a624224860ac57d7ccab17d","BusinessFunction","Identifier un produit ou un composant","Grâce aux informations directement imprimées sur le document, il est possible d'identifier le produit ou le composant grâce à une description, une référence article, un ° de ligne de commande (AR ligne), un n° de besoin (n° OF ou n° fractionnement).
+
+Certain document affiche également une représentation graphique (vignette) du produit.
+
+On retrouve également sous forme d'un code à barres un n° d'identification unique qui, grâce à une lecture optique, sera traité par un logiciel pour effectuer un traitement particulier pour la pièce identifiée. 
+
+Cela peut par exemple être l'impression d'un nouveau document dans une opération de gamme de fabrication, l'envoi de paramètre process à une machine d'usinage, l'aiguillage automatique d'un produit sur un convoyeur ou une sortie particulière (i.e. poste de contrôle), éclairage d'un voyant particulier (instruction type ""pick to light"") ou même l'affichage d'une information complémentaire sur un écran (guidance opérateur par une instruction dynamique liée au contexte et non directement portée par le document).",""
+"id-fd352ce09db0404cbe600a8258acee42","BusinessFunction","Suivre la livraison","",""
+"id-75c8de0caafe4fa7b8d496cf708575e8","BusinessObject","Besoin Planifié","",""
+"id-5478b18c2b7a4f19805b70b22b1b1c69","BusinessObject","Composant","",""
+"id-92319b9643e34580ab0d132ca9f07173","BusinessObject","Ligne AR","",""
+"id-d93dc101a4a7433ca2110e665fbeae30","BusinessObject","Matière Première","",""
+"id-adbb792798084f9ca92858f341193644","BusinessObject","Ordre d'Achat","",""
+"id-2805477146514c47b74cb087d701c100","BusinessObject","Ordre de Fabrication","",""
+"id-d713844eb18c4c898dff87ad0a86ab80","BusinessObject","Ordre Magasin","",""
+"id-0b3945895fbe4dc3a0af468ba3872106","BusinessObject","Pile","",""
+"id-82d4794450a148e5973449deda309acd","BusinessObject","Produit Fini","",""
+"id-453dceebe66f400896ea69d13fe0c4c3","BusinessObject","Semi-Fini","",""
+"id-26f929cc796d4e59a63463ddf366f264","BusinessProcess","Déplacer un composant ou un produit","",""
+"id-19ef9c362c9a4f788c49d4508af4cc5d","BusinessProcess","Expédier un produit","",""
+"id-4ba5d76631ba427e8ff979643c3704aa","BusinessProcess","Fabriquer un produit","",""
+"id-5f72cf0ee7a24a8ca09440cf757e5a9f","BusinessProcess","Préparer des composants","",""
+"id-dfb507fa2c624c42813c9b989014f2e4","Representation","Documentation Produit","Documentation imrpimée associée à un meuble et qui est livrée en même temps que le produit.",""
+"id-8fbb7916b9094323a3ee44bc5a9e6822","Representation","Etiquette de production (étiquette de chant)","Cette étiquette est collée sur une pièce pour permettre de l'identifier et de tracer son déplacement dans les ateliers.
+
+Elle reprend des informations liées à l'ordre de fabrication.",""
+"id-d93bf53b2297499795ba6ebfd39f9738","Representation","Fiche débit plan de travail","",""
+"id-cd1a9008da504b718a8f7862aa72ea1c","Representation","Fiche Perso","La fiche perso est une étiquette qui est collé sur un composant au besoin juste ou un semi-fini et qui permet de spécifier les informations de personnalisation liées à ce produit.
+
+Elle reprend par exemple des informations de caractéristique du produit, mais rappelle également des informations liées à la commande de vente, à l'expédition ou à l'ordre de fabrication concerné.
+
+Elle permet notamment de préciser des instructions de fabrication spécifiques ou de déplacement liées à la gamme de fabrication mise en oeuvre dans un ordre de fabrication.
+
+Elle peut être collée sur un composant au besoin juste qui est préparé ou acheté pour indiquer quelle est la destination dans l'atelier ou quelle est la prochaine opération de transformation.",""
+"id-99d7eb0c4b8043d6aae0afb100ea9860","Representation","Fiche Perso façade STRATAGEM","STRATAGEM : fournisseur façade contremarque",""
+"id-201910aafe5c425297df4e1fd5ccb712","Representation","Fiche Pile","La fiche de pile permet d'identifier une pile en tant qu'unité de manutention et de lister les composants, semi-finis ou produits qui sont contenus dans cette pile ou ce chariot. 
+
+Un n° d'identification unique est représenté sous forme de code à barres.
+
+Dans certains cas, la position de chaque élément sur la pile ou dans le chariot est mentionnée (séquencement des pièces).
+
+Des informations liées à la destination (atelier / ligne) et à la planification associée (n° SL / F) peuvent également être présentes.
+
+Elle peut aussi préciser quel est l'identifiant du (ou des) ""contenants"" (n° du chariot, n° des plaques martyres).",""
+"id-dccee45e82a8493cbbc22d6ea438edc4","Representation","Fiche Préparation","La fiche préparation est une fiche d'instructions qui permet d'indiquer les articles (composants) qu'il faut prélever sur un magasin pour approvisionner un stock ""bord de ligne"".
+
+Cela peut être un recomplètement de type kanban de stock ou bien une liste au besoin juste.
+
+Dans certains cas, la mention d'un séquencement peut être précisée pour préparer, regrouper ou trier les composants dans un ordre précis.",""
+"id-7a14ce36c49545998fe942ce9f8a0550","Representation","Fiche Suiveuse","La fiche suiveuse est une étiquette qui est collée sur chaque produit qui est livré chez le client (plateforme de livraison).
+
+Elle reprend les informations liées à la ligne de commande de vente et à sa livraison. 
+On retrouve l'adresse de livraison ainsi que des éléments de description du produit avec (en général) un visuel (vignette).
+On retrouve également les informations liées à l'expédition du produit : semaine de livraison (SL), n° fractionnement (F), référence de tournée, n° chrono
+
+Si c'est un produit fabriqué, on retrouve également le n° d'OF lié à la dernière opération de fabrication du produit (montage meuble, production plan de travail)
+Des filigranes peuvent être imprimés avec des mentions concernant des particularités liées à la commande (""EXPORT"", ""DELPHA"", ""SAV"", ""DP"" = demande particulière),  à une spécificité du produit (mention ""NF"") ou encore aux flux de production liés à l'OF (""HORS CYCLE"", ""DEMANDE URGENTE"", ""n PRETARD"").
+
+NB : Il est à noter que le filigrane ""n PRETARD"" est une mention qui est ajoutée suite à une modification d'un OF au cours du processus de fabrication, c'est-à-dire après que celui-ci ait été lancé une 1ère fois dans le système ERP, tandis que les mentions ""HORS CYLCE"" ou ""DEMANDE URGENTE"" sont liées à une caractéristique de l'OF au moment de son lancement (type de gamme de fabrication).",""
+"id-d6680e3a45ac4921afc5a8ef8e6a334d","Representation","Fiche suiveuse colis replanifié","Fiche suiveuse ""jaune"" réimprimée quand la livraison d'un colis est replanifiée pour partir sur un flux logistique de type ""messagerie"".",""
+"id-2d5a8a24f92b41e59fe610a7cbc27668","Representation","Fiche Suiveuse WM88","",""
+"id-5da021c2e45b4dc6b96cf25dbb59fc3d","Representation","FP Fournisseur","Fiche perso générée par nos fournisseurs de composants à la contremarque à partir des informations contenues dans le message EDI
+",""
+"id-39f038e0c8ed43b5ae44a1e1ed122252","Representation","FP spécifique atelier","",""
+"id-7921e1deddf249aeb56e0e14570fd1a3","Representation","FPA - Fiche Perso Rangement","",""
+"id-110385fec69347e0880550d2ecb784b5","Representation","FPC - Fiche Perso Composant","",""
+"id-e576f0ca02cc47e2802f3a98a885bec6","Representation","FPG - Fiche Perso Prépa Façade","",""
+"id-2f94c7191f5741b69853df8bdd7e92e9","Representation","FPI - Fiche Perso Composant","",""
+"id-31215b24566748c483eee309f0bdfbcf","Representation","FPM - Fiche Perso Miroir","",""
+"id-6d336e2e6bdc42379d849eff51adbea4","Representation","FPR - Fiche Perso Filler","",""
+"id-d0ccb9604a72466d80fde019fc6ce218","Representation","FPT - Fiche Perso Tiroir","",""
+"id-5c69e1051a674d759afd2324fcfa5074","Representation","FPU - Fiche Perso Rangement","",""
+"id-a2ad64762d95422d81ad7d7302422f5c","Representation","FPZ - Fiche Perso Cartons de Meuble","",""
+"id-8ad4222747514b44935c87bcf1fdac7d","Representation","FS Fournisseur PFF","Fiche suiveuse simplifiée générée par nos fournisseurs de produits finis (électro-ménager ou contremarque) à partir des informations contenues dans le message EDI",""
+"id-b6a130e96363402b97d3bf4dbd656ef4","Representation","FS* - Fiche Suiveuse Production","Fiche suiveuse au format A5 en 3 parties",""
+"id-9089fa8f712f428c807362f33b1f8fbe","Representation","Norme NFE / NFA","Document de certification produit qui est imprimé au besoin juste dans l'atelier pour certains meubles au moment de la préparation du kit composants.
+
+On retrouve sur ce document un code à barres avec  le n° ligne AR qui permet de faire un contrôle d'apparraige et s'assurer que le document NF est bien livré avec le meuble.",""
+"id-bc193b2c14754d85bfb321217e16d077","Representation","Notice de montage","Documentation produit qui est mise dans le kit de composants de certains meubles (salle de bains). 
+
+Les différentes notices sont fabriquées par un imprimeur et sont stockées dans la zone de préparation des kits de composants.
+
+Un code à barres portant la référence de la notice permet de contrôler l'apparairage avec la nomenclature définie pour le meuble.",""
+"id-1b2617dd905c4aad822fb47a4fb1c5c0","ApplicationProcess","composer le document","",""
+"id-17c93c67dcf748b8951ea5706d1e01c7","ApplicationProcess","concevoir le document (mise en page)","",""
+"id-1c46ce354983403e967e897edd76c562","ApplicationProcess","convertir en données imprimante","",""
+"id-38d4e14b3feb40f29b2d1012acce3e7c","ApplicationProcess","extraire les données","",""
+"id-05fa61b8f9c44fa9b3a9e25a0f034ddd","ApplicationProcess","générer le document au format PDF","",""
+"id-31885506249e4634a105a72b08d3aaeb","ApplicationProcess","lire le fichier PDF","",""
+"id-87fba9d8d85147bfaa347e6699f307b2","ApplicationProcess","lire les données","",""
+"id-bae22e33a796487d83d6339dffcc473d","ApplicationProcess","soumettre à une file d'impression","",""
+"id-0fabf153b315422f97187d3575ec7513","ApplicationProcess","transmettre données à l'imprimante","",""
+"id-a8def41941694ca6bcf7439ae4feaca1","DataObject","données dynamiques","",""
+"id-4c8f569b86a947918cc00ec9b0605fae","DataObject","masque de document","",""
+"id-db2413c45124442ea596088073480a6f","Artifact","données imprimante PRN","",""
+"id-0a31e96fe4064cd5a3bf13c5178d394a","Artifact","fichier .LAB","",""
+"id-57e990b8913442fb9eb6bc8d3ae781c1","Artifact","paramètres LDPRX","",""
+"id-d9ec38d769944798933ef33e75d93dc2","Artifact","état Windev compilé","",""
+"id-1356b43ba20b4ed2a1b54c0afb4f5396","Device","imprimante laser","",""
+"id-605af2aff4bd404e9f3645c2ab6290c2","Device","imprimante transfert thermique","",""
+"id-a3b8dcc2a7aa4d43bb307ea9c1d88d15","Material","feuille A4 blanche","",""
+"id-2581160d85fa48c794dd8bb25f6794b2","Material","planche A4 d'étiquettes","",""
+"id-49a472b2efd745a7b18d9cd4313ef2ca","Material","rouleau d'étiquettes","",""
+"id-6c847850dcd64ff6b754e70cd4ad159e","Material","étiquette A5 (blanche)","",""
+"id-d61ce25ab87e424dad7bea1c758baf13","Material","étiquette A5 (jaune)","",""
+"id-56369ceaab3a4fed99fb72bb259b0455","Node","application AS400","",""
+"id-cd0a1a7cf2424500907bfcb0fcfc8136","Node","application Fournisseur (3TEC, DEMATIC...)","",""
+"id-ec7bf8d1994c4e4ba05a871305612fd6","Node","application Windev","",""
+"id-fa441da8e9ea4d3d8da94bdc8c786f28","Node","conception de document (Codesoft)","",""
+"id-82c66902362d41508c77e8630ef01cbd","Node","gestionnaire automatisation des impressions (SENTINEL)","",""
+"id-e232a9a47f9c47919d99ad17968d79d8","Node","gestionnaire impression AS400 ","",""
+"id-10d5777f84694b22b248589d957fa25b","Node","gestionnaire impression Windows","",""
+"id-4363db6779354326b73d03939ade195b","Node","gestionnaire éditique AS400 (LDPRX)","",""
+"id-f036e90ff5f846e2a075188fd359ca91","Node","générateur d'état Windev","",""
+"id-1e227f78613046569651218e6ee7d880","Node","pilote d'impression","",""
+"id-ea2432579f184c16bc74fa8fc32a00b6","Node","répertoire partage de fichiers ","",""
+"id-c215e09172044522816bf0275b4238e3","Node","spool d'impression (asynchrone)","",""
+"id-8e6eaaedba224315905b459254fa3cbb","TechnologyProcess","impression laser N&B","",""
+"id-d16bef06682f471094befbffdd574d92","TechnologyProcess","impression transfert thermique","",""
+"id-e56cadcc04c343338519c2dfc9b367e6","Requirement","100 x 11 mm","",""
+"id-bf57fa2cb57d4ad69e4d6e78994dcaf3","Requirement","110 x 110 mm","",""
+"id-8140b260a86e4f5a9da4b29cbd41d99d","Requirement","135 x 62 mm","",""
+"id-9b4e45e70f604b5abeddf7908b2911d1","Requirement","A4","",""
+"id-48cfa2aa97824f49b4dc90a4e42ba62b","Requirement","A5","",""

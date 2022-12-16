@@ -1,0 +1,442 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>01 - Structure de données</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>01 - Structure de donn&#233;es</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-information_structure"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_information_structure" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-4befdb9e19fb4902b13003f2ca8ed88a.png" alt="01 - Structure de données" usemap="#id-4befdb9e19fb4902b13003f2ca8ed88amap"/>
+			   <map name="id-4befdb9e19fb4902b13003f2ca8ed88amap">
+				  		<area shape="rect" coords="907,148,1027,203" href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html"  target="element">
+				  		<area shape="rect" coords="199,10,319,65" href="../elements/id-dccee45e82a8493cbbc22d6ea438edc4.html"  target="element">
+				  		<area shape="rect" coords="859,46,979,101" href="../elements/id-92319b9643e34580ab0d132ca9f07173.html"  target="element">
+				  		<area shape="rect" coords="740,268,860,323" href="../elements/id-adbb792798084f9ca92858f341193644.html"  target="element">
+				  		<area shape="rect" coords="500,10,620,77" href="../elements/id-8fbb7916b9094323a3ee44bc5a9e6822.html"  target="element">
+				  		<area shape="rect" coords="644,10,764,65" href="../elements/id-cd1a9008da504b718a8f7862aa72ea1c.html"  target="element">
+				  		<area shape="rect" coords="1053,10,1173,65" href="../elements/id-7a14ce36c49545998fe942ce9f8a0550.html"  target="element">
+				  		<area shape="rect" coords="355,10,475,65" href="../elements/id-201910aafe5c425297df4e1fd5ccb712.html"  target="element">
+				  		<area shape="rect" coords="236,562,356,617" href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html"  target="element">
+				  		<area shape="rect" coords="80,394,200,449" href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html"  target="element">
+				  		<area shape="rect" coords="404,310,524,365" href="../elements/id-82d4794450a148e5973449deda309acd.html"  target="element">
+				  		<area shape="rect" coords="332,214,452,269" href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html"  target="element">
+				  		<area shape="rect" coords="176,160,296,215" href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html"  target="element">
+				  		<area shape="rect" coords="560,214,680,269" href="../elements/id-2805477146514c47b74cb087d701c100.html"  target="element">
+				  		<area shape="rect" coords="129,490,249,545" href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html"  target="element">
+				  		        <area shape="rect" coords="680,670,1161,755" href="../objects/id-1724783e4c3d424eb9fc448ad93f191a.html" target="element" >
+
+				          <area shape="rect" coords="668,634,1173,767" href="../objects/id-b5b62c50f03e4e9eb335f17de6ceb3f2.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Description des relations entre les objets de donn&#233;es et leurs repr&#233;sentations</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td> Auteur </td><td class="convertlinks"> <xmp class="no-margin" style="white-space:pre-wrap">Vincent VERMOREL</xmp> </td></tr><tr><td> Date </td><td class="convertlinks"> <xmp class="no-margin" style="white-space:pre-wrap">30/11/2022</xmp> </td></tr><tr><td> Version </td><td class="convertlinks"> <xmp class="no-margin" style="white-space:pre-wrap">0.1</xmp> </td></tr><tr><td> Report:View:Detailed </td><td class="convertlinks"> <xmp class="no-margin" style="white-space:pre-wrap">false</xmp> </td></tr><tr><td> Statut </td><td class="convertlinks"> <xmp class="no-margin" style="white-space:pre-wrap">en cours</xmp> </td></tr>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/id-b5b62c50f03e4e9eb335f17de6ceb3f2.html" target="element"> Cartouche  </a> </td>
+									           <td> <a href="../objects/id-b5b62c50f03e4e9eb335f17de6ceb3f2.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-1724783e4c3d424eb9fc448ad93f191a.html" target="element">  </a> </td>
+											           <td> <a href="../objects/id-1724783e4c3d424eb9fc448ad93f191a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+											        </tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+											    <td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+											    <td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+											    <td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element"> Pile </a> </td>
+											    <td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+											    <td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+											    <td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element"> Mati&#232;re Premi&#232;re </a> </td>
+											    <td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-201910aafe5c425297df4e1fd5ccb712.html" target="element"> Fiche Pile </a> </td>
+											    <td> <a href="../elements/id-201910aafe5c425297df4e1fd5ccb712.html" target="element" class="i18n-elementtype-Representation">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7a14ce36c49545998fe942ce9f8a0550.html" target="element"> Fiche Suiveuse </a> </td>
+											    <td> <a href="../elements/id-7a14ce36c49545998fe942ce9f8a0550.html" target="element" class="i18n-elementtype-Representation">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-cd1a9008da504b718a8f7862aa72ea1c.html" target="element"> Fiche Perso </a> </td>
+											    <td> <a href="../elements/id-cd1a9008da504b718a8f7862aa72ea1c.html" target="element" class="i18n-elementtype-Representation">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8fbb7916b9094323a3ee44bc5a9e6822.html" target="element"> Etiquette de production (&#233;tiquette de chant) </a> </td>
+											    <td> <a href="../elements/id-8fbb7916b9094323a3ee44bc5a9e6822.html" target="element" class="i18n-elementtype-Representation">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-adbb792798084f9ca92858f341193644.html" target="element"> Ordre d'Achat </a> </td>
+											    <td> <a href="../elements/id-adbb792798084f9ca92858f341193644.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-92319b9643e34580ab0d132ca9f07173.html" target="element"> Ligne AR </a> </td>
+											    <td> <a href="../elements/id-92319b9643e34580ab0d132ca9f07173.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-dccee45e82a8493cbbc22d6ea438edc4.html" target="element"> Fiche Pr&#233;paration </a> </td>
+											    <td> <a href="../elements/id-dccee45e82a8493cbbc22d6ea438edc4.html" target="element" class="i18n-elementtype-Representation">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+											    <td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/id-357f7c1519794f999c2b98b72b783b68.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-357f7c1519794f999c2b98b72b783b68.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																		<td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e1e1449bbeed4e819c5ea0a0aef1aee6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e1e1449bbeed4e819c5ea0a0aef1aee6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-30d9fbb8a42d4d03a4898fea14b17cf9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-30d9fbb8a42d4d03a4898fea14b17cf9.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-76556a28f5444220a4fc05c348671223.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-76556a28f5444220a4fc05c348671223.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																		<td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b90b74a30f0c436c9fad8f0329e81386.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b90b74a30f0c436c9fad8f0329e81386.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																		<td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element"> Mati&#232;re Premi&#232;re </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8c36f03ac20242309f4f6d28007ad3b6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8c36f03ac20242309f4f6d28007ad3b6.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																		<td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9d95a6d1ea10488988c76f9f5c1e112f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9d95a6d1ea10488988c76f9f5c1e112f.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-aaeee54bb5654f528018249743e61d1b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-aaeee54bb5654f528018249743e61d1b.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cb55e1e2f74c44e2b5cc59a6307505ec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cb55e1e2f74c44e2b5cc59a6307505ec.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																		<td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element"> Mati&#232;re Premi&#232;re </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-aa890b3b3d614b5f8324b9c815c20da9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-aa890b3b3d614b5f8324b9c815c20da9.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																		<td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9d171182a81c41859635b52cfc61b80a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9d171182a81c41859635b52cfc61b80a.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element"> Pile </a> </td>
+																		<td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-449651fd256948e89c40ed0a51baa12e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-449651fd256948e89c40ed0a51baa12e.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element"> Pile </a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fca9c17537bf4a3aa73927eb45c65e78.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fca9c17537bf4a3aa73927eb45c65e78.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element"> Pile </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b4f58ccd3f44441f8417c498796bb0d6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b4f58ccd3f44441f8417c498796bb0d6.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																		<td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f04d57e6539c462494eabb36177ee622.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f04d57e6539c462494eabb36177ee622.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-724f178f48d544f2b1908d18bc9b4368.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-724f178f48d544f2b1908d18bc9b4368.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																		<td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element"> Mati&#232;re Premi&#232;re </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1ce32ceee72c43a7b6332e866baa9169.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1ce32ceee72c43a7b6332e866baa9169.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																		<td> <a href="../elements/id-5478b18c2b7a4f19805b70b22b1b1c69.html" target="element"> Composant </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ec8c426be3514d35a7ef580fbf2b8eb8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ec8c426be3514d35a7ef580fbf2b8eb8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cf86a67bdd184b008edfd504733c5749.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cf86a67bdd184b008edfd504733c5749.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																		<td> <a href="../elements/id-d93dc101a4a7433ca2110e665fbeae30.html" target="element"> Mati&#232;re Premi&#232;re </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1d713ce63d444aaaa50624aac12eb97a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1d713ce63d444aaaa50624aac12eb97a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-201910aafe5c425297df4e1fd5ccb712.html" target="element"> Fiche Pile </a> </td>
+																		<td> <a href="../elements/id-0b3945895fbe4dc3a0af468ba3872106.html" target="element"> Pile </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-5dc797cad559425b9ac8d05e85052744.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5dc797cad559425b9ac8d05e85052744.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a14ce36c49545998fe942ce9f8a0550.html" target="element"> Fiche Suiveuse </a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c4aec361d6604d6ba941a7e36ee0770e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c4aec361d6604d6ba941a7e36ee0770e.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a14ce36c49545998fe942ce9f8a0550.html" target="element"> Fiche Suiveuse </a> </td>
+																		<td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-01827516756848289719cc04b83c21b6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-01827516756848289719cc04b83c21b6.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cd1a9008da504b718a8f7862aa72ea1c.html" target="element"> Fiche Perso </a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-606d8a3eefa64d269766cfa313771d07.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-606d8a3eefa64d269766cfa313771d07.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8fbb7916b9094323a3ee44bc5a9e6822.html" target="element"> Etiquette de production (&#233;tiquette de chant) </a> </td>
+																		<td> <a href="../elements/id-2805477146514c47b74cb087d701c100.html" target="element"> Ordre de Fabrication </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-6641aa0df25c4dc0a04019dcac2e045f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6641aa0df25c4dc0a04019dcac2e045f.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adbb792798084f9ca92858f341193644.html" target="element"> Ordre d'Achat </a> </td>
+																		<td> <a href="../elements/id-453dceebe66f400896ea69d13fe0c4c3.html" target="element"> Semi-Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2b37aa5e1d48404984d7599193552c91.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2b37aa5e1d48404984d7599193552c91.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adbb792798084f9ca92858f341193644.html" target="element"> Ordre d'Achat </a> </td>
+																		<td> <a href="../elements/id-82d4794450a148e5973449deda309acd.html" target="element"> Produit Fini </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0cda335fe2b4418b969b886a5acc475c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0cda335fe2b4418b969b886a5acc475c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adbb792798084f9ca92858f341193644.html" target="element"> Ordre d'Achat </a> </td>
+																		<td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a1d9ada141db45858ee606fe6948a72a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a1d9ada141db45858ee606fe6948a72a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dccee45e82a8493cbbc22d6ea438edc4.html" target="element"> Fiche Pr&#233;paration </a> </td>
+																		<td> <a href="../elements/id-d713844eb18c4c898dff87ad0a86ab80.html" target="element"> Ordre Magasin </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4916d904d3804b7590bf6a7c90916581.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4916d904d3804b7590bf6a7c90916581.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-75c8de0caafe4fa7b8d496cf708575e8.html" target="element"> Besoin Planifi&#233; </a> </td>
+																		<td> <a href="../elements/id-92319b9643e34580ab0d132ca9f07173.html" target="element"> Ligne AR </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
